@@ -16,12 +16,14 @@ const brightness = isLit ? "lit" : "dark";
 /*function updateLit(){
     console.log("Button clicked");
     setLit(!isLit);
-}*/
-const increaseAge= ()=>{
+
+    const increaseAge= ()=>{
     console.log("Increase Age Button clicked");
     setAge(++age);
     //isLit = !isLit;
 }
+}*/
+
 return(
     //<div className={'room ${isLit?"lit":"dark"}'}>
     <div className={`room ${brightness}`}>
